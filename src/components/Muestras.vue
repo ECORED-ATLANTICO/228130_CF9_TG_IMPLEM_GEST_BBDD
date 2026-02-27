@@ -116,10 +116,10 @@ div
   p.mb-3 Se debe tener en cuenta que las personas realizan un escaneo del mismo para encontrar elementos de su interés. Las listas deben estar compuestas por elementos relacionados entre sí, con un orden específico o un conteo importante. 
   
   ul.lista-ul.mb-3
-    li 
+    li.d-flex 
       i.lista-ul__vineta
       | Texto
-    li 
+    li.d-flex 
       i.lista-ul__vineta
       | Cita o Referencia
     li  
@@ -129,16 +129,16 @@ div
   .h5 Requerimientos de información:
 
   ul.lista-ul.mb-5
-    li 
+    li.d-flex 
       i.lista-ul__vineta
       | Título conciso y claro.
-    li 
+    li.d-flex 
       i.lista-ul__vineta
       | Si el texto del item es largo, la extensión máxima será de cuatro líneas en word tamaño carta. 
-    li 
+    li.d-flex 
       i.lista-ul__vineta
       | Enfatizar ciertos puntos diferenciándolos del resto del texto.
-    li 
+    li.d-flex 
       i.lista-ul__vineta
       | Cuando desee comunicar un procedimiento paso por paso y cuando el orden de los elementos sea necesario.
 
@@ -409,7 +409,7 @@ div
   .h5 Requerimientos de información
 
   ul.lista-ul.mb-5
-    li 
+    li.d-flex 
       i.lista-ul__vineta
       | Se requiere que la información contenida dentro de las tablas propuestas en los materiales, se encuentre digitalizada únicamente en formato excel. 
 
@@ -636,22 +636,22 @@ div
   p.mb-3 Su función principal es destacar bloques de información importantes a través de recursos gráficos (imágenes y/o texto). 
 
   ul.lista-ul.mb-3
-    li 
+    li.d-flex 
       i.lista-ul__vineta
       | Texto
-    li 
+    li.d-flex 
       i.lista-ul__vineta
       | Cita o Referencia
-    li 
+    li.d-flex 
       i.lista-ul__vineta
       | Imagen + Texto
 
   .h5 Requerimientos de información: 
   ul.lista-ul.mb-5
-    li 
+    li.d-flex 
       i.lista-ul__vineta
       | Información precisa, que reporten notoriedad, tips, conceptos o definiciones.
-    li 
+    li.d-flex 
       i.lista-ul__vineta
       | Se sugiere una cantidad de texto igual o menor a 4 líneas de word tamaño carta.
 
@@ -792,13 +792,13 @@ div
   .h5 Requerimientos de información:
 
   ul.lista-ul.mb-5
-    li 
+    li.d-flex 
       i.lista-ul__vineta
       | Máximo 7 diapositivas.
-    li 
+    li.d-flex 
       i.lista-ul__vineta
       | Por cada diapositiva una idea central con máximo dos ideas secundarias, que pueden apoyarse en recursos gráficos.
-    li 
+    li.d-flex 
       i.lista-ul__vineta
       | Textos puntuales y claros.
 
@@ -1020,25 +1020,25 @@ div
   .h5 Requerimientos de información:
 
   ul.lista-ul.mb-5
-    li 
+    li.d-flex 
       i.lista-ul__vineta
       | Los títulos de cada tema deben ser claros, concisos de una línea de word tamaño carta.
-    li 
+    li.d-flex 
       i.lista-ul__vineta
       | La cantidad máxima es de 7 items.
-    li 
+    li.d-flex 
       i.lista-ul__vineta
       | Se sugiere que la cantidad de texto sea igual o menor a 9 líneas de word tamaño carta. 
-    li 
+    li.d-flex 
       i.lista-ul__vineta
       | Se sugiere el uso de texto acompañado de imágenes que refuercen el contenido a representar. 
-    li 
+    li.d-flex 
       i.lista-ul__vineta
       | Se recomienda utilizar este componente para evidenciar procesos o temas generales compuesto de varias etapas.
-    li 
+    li.d-flex 
       i.lista-ul__vineta
       | No se debe utilizar para representar grandes cantidades de texto o contenido.
-    li 
+    li.d-flex 
       i.lista-ul__vineta
       | No se debe utilizar dentro del acordeón vídeos.
   
@@ -1084,25 +1084,25 @@ div
   .h5 Requerimientos de información
 
   ul.lista-ul.mb-5
-    li 
+    li.d-flex 
       i.lista-ul__vineta
       | Los títulos que actuará como botón que sea una palabra o frases muy cortas.
-    li 
+    li.d-flex 
       i.lista-ul__vineta
       | La cantidad máxima es de 5 items.
-    li 
+    li.d-flex 
       i.lista-ul__vineta
       | Se sugiere que la cantidad de texto sea igual o menor a 12 líneas de word tamaño carta. 
-    li 
+    li.d-flex 
       i.lista-ul__vineta
       | Se sugiere el uso de texto acompañado de imágenes que refuercen el contenido a representar. 
-    li 
+    li.d-flex 
       i.lista-ul__vineta
       | Se recomienda utilizar este componente para evidenciar procesos o temas generales compuesto de varias etapas.
-    li 
+    li.d-flex 
       i.lista-ul__vineta
       | No se debe utilizar para representar grandes cantidades de texto o contenido.
-    li 
+    li.d-flex 
       i.lista-ul__vineta
       | No se debe utilizar dentro de la pestaña o tab vídeos.
 
@@ -1321,22 +1321,22 @@ div
   .h5 Requerimientos de información:
 
   ul.lista-ul.mb-5
-    li 
+    li.d-flex 
       i.lista-ul__vineta
       | Título llamativo
-    li 
+    li.d-flex 
       i.lista-ul__vineta
       | Descripción del evento con una cantidad de texto igual o menor a 9 líneas de word tamaño carta. 
-    li 
+    li.d-flex 
       i.lista-ul__vineta
       | Se sugiere el uso de imágenes que refuercen el contenido a representar. 
-    li 
+    li.d-flex 
       i.lista-ul__vineta
       | Si el elemento de la línea de tiempo requiere de algún anexo o algún documentos descargable, es necesario que se especifique claramente el título de dicho material. 
-    li 
+    li.d-flex 
       i.lista-ul__vineta
       | En anexos al componente incluir el material que será descargado. 
-    li 
+    li.d-flex 
       i.lista-ul__vineta
       | El peso de los anexos o archivos descargables no debe ser superior a 12MB.
 
@@ -1655,32 +1655,32 @@ div
   p.mb-2 Es un bloque de texto que destaca por su composición y diseño. Su principal función es incentivar al usuario a realizar una acción a través de un botón o hipervínculo, en este caso, con el fin de poder acceder a recursos como infografías, videos, documentos y sitios web externos e independientes del componente formativo.
 
   ul.lista-ul.mb-3
-    li 
+    li.d-flex 
       i.lista-ul__vineta
       | Abrir PDF
-    li 
+    li.d-flex 
       i.lista-ul__vineta
       | Infografías
-    li 
+    li.d-flex 
       i.lista-ul__vineta
       | Documentos
-    li 
+    li.d-flex 
       i.lista-ul__vineta
       | Videos externos 
-    li 
+    li.d-flex 
       i.lista-ul__vineta
       | Enlaces
 
   .h5 Requerimientos de información:
 
   ul.lista-ul.mb-5
-    li 
+    li.d-flex 
       i.lista-ul__vineta
       | Título llamativo, claro y conciso. 
-    li 
+    li.d-flex 
       i.lista-ul__vineta
       | La redacción de los textos deben crear la necesidad de consultar el contenido sugerido (anexos).
-    li 
+    li.d-flex 
       i.lista-ul__vineta
       | Se sugiere un párrafo de acompañamiento que no sobrepase las 3 líneas de texto en su extensión, cuya característica principal sea incentivar al aprendiz a consultar el recurso propuesto.
 
@@ -1793,13 +1793,13 @@ div
   .h5 Requerimientos de información:
 
   ul.lista-ul.mb-5
-    li 
+    li.d-flex 
       i.lista-ul__vineta
       | Título corto y claro.
-    li 
+    li.d-flex 
       i.lista-ul__vineta
       | Información precisa, que reporten conceptos o definiciones.
-    li 
+    li.d-flex 
       i.lista-ul__vineta
       | Se sugiere una cantidad de texto igual o menor a 4 líneas de word tamaño carta.
 

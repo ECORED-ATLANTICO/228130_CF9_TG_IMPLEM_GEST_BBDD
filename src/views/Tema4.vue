@@ -109,7 +109,7 @@
 
                 br
                 br
-                |La ejecución de una imagen dentro de un contenedor implica la posibilidad de convertirse en una o varias instancias; estas imágenes se pueden comparar con un sistema de máquinas virtuales, que se utilizan en los entornos. Las imágenes se pueden encontrar en diferentes repositorios, y uno de los más conocidos es el <em>Docker Hub</em>, en donde se pueden encontrar imágenes públicas que se utilizan en los proyectos; lo que se debe hacer es descargar la imagen y empezar creando las diferentes capas que se requieren para la aplicación. (Gouigoux, 2018).
+                |La ejecución de una imagen dentro de un contenedor implica la posibilidad de convertirse en una o varias instancias; estas imágenes se pueden comparar con un sistema de máquinas virtuales que se utilizan en los entornos. Las imágenes se pueden encontrar en diferentes repositorios, y uno de los más conocidos es el Docker Hub, en donde se pueden encontrar imágenes públicas que se utilizan en los proyectos; lo que se debe hacer es descargar la imagen y empezar creando las diferentes capas que se requieren para la aplicación. (Gouigoux, 2018).
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8(data-aos="fade-left")
@@ -120,7 +120,7 @@
 
                 br
                 br
-                |Un ejemplo de una imagen podría contener un sistema operativo Ubuntu con un servidor SQL y la aplicación <em>web</em> desarrollada instalada. Las imágenes se utilizan para crear contenedores y nunca cambian; existen imágenes de tipo privado y público, y estas pueden contener elementos básicos como Java, Ubuntu o Apache, entre otros que se pueden descargar. Generalmente cuando se crea una imagen se parte de una imagen padre, a la que se le van adicionando cosas.
+                |Un ejemplo de una imagen podría contener un sistema operativo Ubuntu con un servidor SQL y la aplicación <em>web</em> desarrollada instalada. Las imágenes se utilizan para crear contenedores y nunca cambian; existen imágenes de tipo privado y público, y estas pueden contener elementos básicos como Java, Ubuntu o Apache, entre otros que se pueden descargar. Generalmente, cuando se crea una imagen, se parte de una imagen padre, a la que se le van adicionando cosas.
       .col-lg-4.col-8(data-aos="fade-right"): img(src='@/assets/curso/temas/tema5/5.svg', alt='')
     
     .row.justify-content-center.mb-5
@@ -156,7 +156,7 @@
               br
               |Este comando identifica que se va a lanzar un contenedor; todo lo que se encuentre a la derecha de run significará que será una configuración específica para la manipulación del contenedor.  
           div(titulo="- -rm")
-            p Permite eliminar el contenedor que se está ejecutando, esto es necesario para usar un programa que solo esté en el contenedor y ejecutar algo dentro.
+            p Permite eliminar el contenedor que se está ejecutando; esto es necesario para usar un programa que solo esté en el contenedor y ejecutar algo dentro.
           div(titulo="- -name")
             p Se utiliza para darle un nombre o identificación a nuestro contenedor.
           div(titulo="-d")

@@ -121,7 +121,7 @@ export default {
     {
       termino: 'IGP',
       significado:
-        'el Interior Gateway Protocol, es un protocolo de pasarela interna o protocolo de pasarela interior, este hace referencia a los usados dentro de un sistema autónomo.',
+        'el Interior Gateway Protocol es un protocolo de pasarela interna o protocolo de pasarela interior; este hace referencia a los usados dentro de un sistema autónomo.',
     },
     {
       termino: 'IP',
@@ -136,12 +136,12 @@ export default {
     {
       termino: 'NETBIOS',
       significado:
-        'especificación de interfaz para acceso a servicios de red, es decir, una capa de software desarrollado para enlazar un sistema operativo de red con <em> hardware</em> específico.',
+        'especificación de interfaz para acceso a servicios de red, es decir, una capa de software desarrollada para enlazar un sistema operativo de red con <em> hardware</em> específico.',
     },
     {
       termino: 'NFS',
       significado:
-        '<em> Network File System</em>, es un protocolo de nivel de aplicación, según el Modelo OSI. Es utilizado para sistemas de archivos distribuido en un entorno de red de computadoras de área local.',
+        '<em> Network File System</em> es un protocolo de nivel de aplicación, según el modelo OSI. Es utilizado para sistemas de archivos distribuidos en un entorno de red de computadoras de área local.',
     },
     {
       termino: 'OSI',
@@ -162,56 +162,9 @@ export default {
   referencias: [
     {
       referencia:
-        'Dauzon, S. (2022). Git: Controle la gestión de sus versiones (conceptos, utilización y casos prácticos). (2ª Edición). Ediciones ENI. ',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_biblioteca_eniEPT3GIT',
-    },
-
-    {
-      referencia:
-        'Gouigoux, J. (2018). Primeros pasos y puesta en práctica de una arquitectura basada en microservicios. Ediciones ENI. ',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_biblioteca_eniEPT2DOC',
-    },
-
-    {
-      referencia:
-        'Joyanes, L. (2012). Computación en la nube: Estrategias de Cloud Computing en las empresas. Alfaomega Grupo Editor. ',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000061577',
-    },
-
-    {
-      referencia:
         'Linares, K. (2017). Protocolos y aplicaciones de redes pequeñas - CCNA V6.0. Kevin Linares',
       link:
         ' https://3.bp.blogspot.com/-yOSvNtxMKeg/WSJBkZY2c6I/AAAAAAAAD0E/buUO_7iUmWAIz0LhSYuA7rKWXO9cIVWogCLcB/s1600/Protocolos%2Bcomunes.jpg',
-    },
-
-    {
-      referencia:
-        'Philippe, F. (2010). Windows server 2008: los servicios de red TCP/IP. Ediciones ENI. ',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_biblioteca_eniRIT08TCP',
-    },
-    {
-      referencia:
-        'Philippe, P. (2021). Microsoft Azure: gestione su sistema de información en la nube. Ediciones ENI. ',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_biblioteca_eniEPT3AZWIN',
-    },
-
-    {
-      referencia:
-        'Serrano, J. (2022). AWS, el rentable negocio en la nube de Amazon. Unidad Editorial Revistas, SLU. ',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1i756fj/TN_cdi_proquest_miscellaneous_2664218413',
-    },
-    {
-      referencia:
-        'Villarino, J. (2018). La privacidad en el entorno del Cloud Computing. Editorial ',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_elibroELB121544',
     },
   ],
   creditos: {

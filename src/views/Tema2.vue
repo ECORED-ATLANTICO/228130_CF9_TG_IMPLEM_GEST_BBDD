@@ -26,14 +26,17 @@
 
     .row.mt-5
       h3 Tipos de servicios
-
+    
     p.mb-5(data-aos='fade-right') En la actualidad existen diversas empresas que manejan la información en la nube, ofreciendo una variedad de servicios los cuales se pueden clasificar en:
     .row.justify-content-center.mb-5
       .col-lg-10
+        .titulo-sexto.color-acento-contenido.mb-4
+          h5 Figura 5.
+          span #[em Tipos de servicios]
         ImagenInfografica.color-secundario.mb-5
           template(v-slot:imagen)
             figure
-              img(src='@/assets/curso/temas/tema2/img2.svg', alt='Infografía que describe los tipos de servicios en la nube: SaaS, PaaS e IaaS con sus respectivos ejemplos y alcances.')
+              img(src='@/assets/curso/temas/tema2/img2.svg', alt='Tipos de servicios: SaaS: ofrece aplicaciones del proveedor. PaaS: proporciona un modelo de programación y herramientas de desarrollo. IaaS: proporciona los recursos informáticos.')
               figcaption Nota: Adaptada de SaS (s/f). Weclapp (2021).  
           .tarjeta.color-acento-contenido.p-3.text-black(x="23.5%" y="13%" numero="+")
             h4.mb-2 SaaS
@@ -59,14 +62,14 @@
       .col-lg-2.col-5(data-aos="fade-right"): img(src='@/assets/curso/temas/tema2/3.png', alt='')
       .col-lg-10(data-aos="fade-left")
         ul.lista-ul--color
-          li
+          li.d-flex
             i.fas.fa-circle.fa-xs
             p.mb-0 #[b Proveedor:] este se encarga de brindar el servicio, permite al usuario facilitarle recursos e infraestructura tecnológica, garantizando el mantenimiento del mismo.
-          li
+          li.d-flex
             i.fas.fa-circle.fa-xs
             p.mb-0 #[b Tecnología:] este dependerá del tipo de servicio; el proveedor brindará una gestión mayor o menor en los recursos tecnológicos.
 
-          li
+          li.d-flex
             i.fas.fa-circle.fa-xs
             p.mb-0 #[b Consumidor:] se podrá acceder a los recursos ofrecidos por el proveedor; este podrá hacer uso de los mismos.
     
@@ -77,10 +80,13 @@
 
     .row.justify-content-center.mb-5
       .col-lg-10
+        .titulo-sexto.color-acento-contenido.mb-4
+          h5 Figura 6.
+          span #[em Tipos de nubes]
         ImagenInfografica.color-secundario.mb-5
           template(v-slot:imagen)
             figure
-              img(src='@/assets/curso/temas/tema2/img5.svg', alt='Representación visual de los tipos de nubes: Privado, Híbrido y Público.').mb-3
+              img(src='@/assets/curso/temas/tema2/img5.svg', alt='Tipos de nubes: - Privado. - Híbrido. - Público.').mb-3
 
           .tarjeta.color-acento-botones.p-3.text-black(x="12.5%" y="39%" numero="+")
             h5.mb-2 Nube privada

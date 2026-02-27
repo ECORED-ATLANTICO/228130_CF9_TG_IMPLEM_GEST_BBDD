@@ -30,28 +30,28 @@
         p La finalidad de una red se fundamenta en que los usuarios de una entidad o empresa puedan optimizar los recursos para garantizar un rendimiento eficaz; es por esta razón que las organizaciones cuentan con grandes beneficios a la hora de trabajar en red, como son los que veremos a continuación:
 
         ul.lista-ul--color
-          li
+          li.d-flex
             i.fas.fa-circle.fa-xs(style='color: #00defc')
             | Dinámica grupal.
-          li
+          li.d-flex
             i.fas.fa-circle.fa-xs(style='color: #00defc')
             p.mb-0 Administración del <em>software</em>.
-          li
+          li.d-flex
             i.fas.fa-circle.fa-xs(style='color: #00defc')
             | Seguridad de la información.
-          li
+          li.d-flex
             i.fas.fa-circle.fa-xs(style='color: #00defc')
             | Mejores tiempos de respuesta.
-          li
+          li.d-flex
             i.fas.fa-circle.fa-xs(style='color: #00defc')
             | Facilidad de uso.
-          li
+          li.d-flex
             i.fas.fa-circle.fa-xs(style='color: #00defc')
             | Mejoramiento de la competitividad.
-          li
+          li.d-flex
             i.fas.fa-circle.fa-xs(style='color: #00defc')
             | Mejora la comunicación.
-          li
+          li.d-flex
             i.fas.fa-circle.fa-xs(style='color: #00defc')
             | Reduce los costos en los procesos.
       .col-lg-5.col-8(data-aos="fade-left"): img(src='@/assets/curso/temas/tema1/2.svg', alt='')
@@ -77,13 +77,13 @@
           p.mb-0 La variedad de aplicaciones influye en la red de múltiples maneras y esto hace que se deba ejercer un control en el uso del ancho de banda para así garantizar un rendimiento óptimo; es por esto por lo que se necesita identificar y darle prioridad al tráfico, ya que es algo muy importante en un negocio.
         p El QoS nos brinda una serie de beneficios como lo son:
         ul.lista-ul--color
-          li
+          li.d-flex
             i.fas.fa-circle.fa-xs(style='color: #00defc')
             | La previsibilidad.
-          li
+          li.d-flex
             i.fas.fa-circle.fa-xs(style='color: #00defc')
             | Mensurabilidad.
-          li
+          li.d-flex
             i.fas.fa-circle.fa-xs(style='color: #00defc')
             | Seguridad.
       .col-lg-5.col-8(data-aos="fade-left")

@@ -77,13 +77,13 @@
       .col-lg-1.col-5(data-aos="fade-right"): img(src='@/assets/curso/temas/tema3/7.svg', alt='')
       .col-lg-11(data-aos="fade-left")
         ul.lista-ul--color
-          li
+          li.d-flex
             i.fas.fa-check.fa-xs
-            p.mb-0 #[b <em>Hardware</em> de la máquina:] este aportará los recursos que se utilizarán y será el actor al que se le aplicarán las técnicas de virtualización.
-          li
+            p.mb-0 #[b #[em Hardware] de la máquina:] este aportará los recursos que se utilizarán y será el actor al que se le aplicarán las técnicas de virtualización.
+          li.d-flex
             i.fas.fa-check.fa-xs
             p.mb-0 #[b Capa de virtualización:] se llama hipervisor o monitor de máquina virtual y permite usar, al mismo tiempo, diferentes sistemas operativos en una misma máquina.
-          li
+          li.d-flex
             i.fas.fa-check.fa-xs
             p.mb-0 #[b Máquinas virtuales:] es un entorno virtual que dispone del <em>hardware</em>, formado, a su vez, por un sistema operativo. Se ejecutan como cualquier proceso del sistema operativo, realizando una interpretación de enlace entre la fuente y el código máquina.
 
@@ -97,28 +97,28 @@
           .contenedor-dashed.p-3
             .bg-white.p-3
               ul.lista-ul--color
-                li
+                li.d-flex
                   i.fas.fa-check.fa-xs
                   p.mb-0 Oracle VirtualBox.
-                li
+                li.d-flex
                   i.fas.fa-check.fa-xs
                   p.mb-0 VMware Workstation Pro.
-                li
+                li.d-flex
                   i.fas.fa-check.fa-xs
                   p.mb-0 OpenVZ.
-                li
+                li.d-flex
                   i.fas.fa-check.fa-xs
                   p.mb-0 QEMU.
-                li
+                li.d-flex
                   i.fas.fa-check.fa-xs
                   p.mb-0 KVM.
-                li
+                li.d-flex
                   i.fas.fa-check.fa-xs
                   p.mb-0 Parallels Desktop para Mac.
-                li
+                li.d-flex
                   i.fas.fa-check.fa-xs
                   p.mb-0 VMware Fusion Pro.
-                li
+                li.d-flex
                   i.fas.fa-check.fa-xs
                   p.mb-0 Microsoft Hyper-V Manager.
 
@@ -150,18 +150,18 @@
             .bg-white.p-3
               p Entre las funcionalidades de Azure se encuentran las siguientes:
               ul.lista-ul--color
-                li
+                li.d-flex
                   i.fas.fa-check.fa-xs
                   p.mb-0 <b>Servicios de infraestructura:</b> la nube híbrida de Microsoft permite usar máquinas virtuales, almacenamiento, copia de seguridad y herramientas de gestión.
 
-                li
+                li.d-flex
                   i.fas.fa-check.fa-xs
                   p.mb-0 <b>Desarrollo de aplicaciones modernas:</b> permite crear variedad de aplicaciones como soluciones <em>web</em>, móviles y de línea de negocios; en las características de escalado automático, se tienen App Service Web y movilidad multimedia.
-                li
+                li.d-flex
                   i.fas.fa-check.fa-xs
                   p.mb-0 <b>Información basada en datos:</b> se puede extraer información de todos los datos. Estos se proporcionan por el administrador de SQL y NoSQL, con compatibilidad integrada para realizar análisis a bases de datos.
 
-                li
+                li.d-flex
                   i.fas.fa-check.fa-xs
                   p.mb-0 <b>Administración de identidad:</b> Active Directory es una solución en la nube, completa, para la administración de identidades y acceso. Puede, a su vez, administrar las cuentas de usuario y sincronizar con directorios locales.
 
@@ -172,22 +172,22 @@
             .bg-white.p-3
               p Ahora bien, la plataforma Azure ofrece muchas ventajas a empresas medianas y grandes, entre las cuales se destacan las siguientes:
               ul.lista-ul--color
-                li
+                li.d-flex
                   i.fas.fa-check.fa-xs
                   p.mb-0 <strong>Desarrollo y operación a través del trabajo colaborativo:</strong> con una cultura en el desarrollo, implementación, administración de aplicaciones en la nube, el equipo TI tiene la ventaja de aumentar su productividad.
 
-                li
+                li.d-flex
                   i.fas.fa-check.fa-xs
                   p.mb-0 <strong>Seguridad en la nube:</strong> uno de los temas más interesantes en las empresas es la migración de la información en sistemas locales al entorno de la nube.
 
-                li
+                li.d-flex
                   i.fas.fa-check.fa-xs
                   p.mb-0 <strong>Resiliencia en la nube:</strong>  una de las ventajas en la nube es bajar los costos con el uso de un <em>hardware</em> optimizado. Anteriormente, las empresas pensaban en invertir en equipos costosos para resolver el tema de escalabilidad.
 
-                li
+                li.d-flex
                   i.fas.fa-check.fa-xs
                   p.mb-0 <strong>Análisis de los datos:</strong> la plataforma de Microsoft Azure ofrece herramientas para ordenar los algoritmos y categorías de la información recopilada.
-                li
+                li.d-flex
                   i.fas.fa-check.fa-xs
                   p.mb-0 <strong>Inteligencia artificial:</strong> la plataforma revoluciona la forma en que se organizan la información y los recursos TI; además, permite desarrollar una cultura de cooperación, basada en el aprendizaje, optimización y pruebas. (Philippe, 2021).
 
@@ -208,9 +208,9 @@
         .cajon-b.color-secundario.p-3.mb-2
           p Todos los recursos que se asignan y usan deben pertenecer a un proyecto; los proyectos están compuestos por la configuración, permisos y metadatos, para describir aplicaciones. Cada proyecto debe contener las siguientes características: nombre del proyecto, ID y un número de proyecto.
 
-          p Para estos casos, la consola proporciona una interfaz gráfica con entorno <em>web</em>, en donde se pueden administrar los proyectos y recursos de Google Cloud; también se pueden crear varios proyectos y usarlos para separar el trabajo de una mejor manera. Villarino (2018)
+          p Para estos casos, la consola proporciona una interfaz gráfica con entorno <em>web</em>, en donde se pueden administrar los proyectos y recursos de Google Cloud; también se pueden crear varios proyectos y usarlos para separar el trabajo de una mejor manera. Villarino (2018).
 
-          p Entre la lista de funciones que Google Cloud ofrece, se encuentran más de 100 productos y servicios, dando solución a problemas empresariales como: máquinas virtuales, alojamiento <em>web</em>, almacenamiento de archivos, VPS, creación de aplicaciones, herramientas de gestión, etc.
+          p Entre la lista de funciones que Google Cloud ofrece, se encuentran más de 100 productos y servicios, dando solución a problemas empresariales como máquinas virtuales, alojamiento <em>web</em>, almacenamiento de archivos, VPS, creación de aplicaciones, herramientas de gestión, etc.
 
       .col-lg-5.col-8(data-aos="fade-left")
         img(src='@/assets/curso/temas/tema3/img12.svg', alt='')
@@ -218,48 +218,48 @@
     .row.mt-3.justify-content-center
       .col-lg-10
         .cajon.color-acento-botones.p-4.mb-4(style="background-color: #d9faff")
-            p.mb-0 Google Cloud sirve para la realización de sitios <em>web</em>, administradores de procesos y almacenamiento de grandes volúmenes de datos; además, tienen su propio espacio en la nube, manteniendo un alto nivel de seguridad con un sistema de encriptado, que evita la invasión y robo de datos.
+            p.mb-0 Google Cloud sirve para la realización de sitios <em>web</em>, administradores de procesos y almacenamiento de grandes volúmenes de datos; además, tiene su propio espacio en la nube, manteniendo un alto nivel de seguridad con un sistema de encriptado, que evita la invasión y robo de datos.
 
 
-    p.mb-5(data-aos='fade-right') Con Google Cloud se puede hacer una inversión en una plataforma en la nube. Ahora bien, cuando se habla específicamente de Google, se tienen aún más ventajas, en comparación de servicios similares, como:
+    p.mb-5(data-aos='fade-right') Con Google Cloud se puede hacer una inversión en una plataforma en la nube. Ahora bien, cuando se habla específicamente de Google, se tienen aún más ventajas, en comparación con servicios similares, como:
 
     .row.justify-content-center.mb-5
       .col-lg-4(data-aos="fade-right")
         ol.lista-ol--cuadro
-          li.mb-0
+          li.d-flex
           .lista-ol--cuadro__vineta(style='background-color: #084a93')
             span 1
           | Precios competitivos.
-          li.mb-0
+          li.d-flex
           .lista-ol--cuadro__vineta(style='background-color: #084a93')
             span 2
           | Seguridad de nivel alto.
-          li.mb-0
+          li.d-flex
           .lista-ol--cuadro__vineta(style='background-color: #084a93')
             span 3
           | Migración de datos a máquinas virtuales.
-          li.mb-0
+          li.d-flex
           .lista-ol--cuadro__vineta(style='background-color: #084a93')
             span 4
           | Plataforma expansiva y escalable.
       .col-lg-4(data-aos="fade-left")
         ol.lista-ol--cuadro
-          li.mb-0
+          li.d-flex
           .lista-ol--cuadro__vineta(style='background-color: #084a93')
             span 5
           | Rendimiento superior y de calidad.
-          li.mb-0
+          li.d-flex
           .lista-ol--cuadro__vineta(style='background-color: #084a93')
             span 6
           | Colaboración entre usuarios y proyectos.
-          li.mb-0
+          li.d-flex
           .lista-ol--cuadro__vineta(style='background-color: #084a93')
             span 7
           | Copia de seguridad automática.
-          li.mb-0
+          li.d-flex
           .lista-ol--cuadro__vineta(style='background-color: #084a93')
             span 8
-          | Red privada a alta velocidad.
+          | Red privada de alta velocidad.
 
     .row.mt-5
       h3 Amazon Web Services AWS
@@ -268,12 +268,12 @@
       .cajon-b.color-secundario.p-3.mb-5
         p Esta es una de las plataformas más populares en la nube. Ofrece gran variedad de servicios integrales: cómputo, almacenamiento y bases de datos, lo que hace que las aplicaciones en la nube sean mucho más rápidas, rentables y fáciles de usar.
 
-        p Se puede decir que Amazon Web Services, es un paquete de servicios <em>web</em> que forma una plataforma de computación en la nube; es usado en aplicaciones famosas como Dropbox, Hootsuite y compite directamente con Azure, Google Cloud e IBM Cloud.
+        p Se puede decir que Amazon Web Services es un paquete de servicios <em>web</em> que forma una plataforma de computación en la nube; es usado en aplicaciones famosas como Dropbox, Hootsuite y compite directamente con Azure, Google Cloud e IBM Cloud.
 
         p.mb-0 AWS fue lanzado en el año 2006, ofreciendo servicios para sitios <em>web</em>. La mayoría de estos servicios no están expuestos a los usuarios finales. A ella se ingresa a través del protocolo HTTP (Serrano, 2022).
 
       .cajon-b.color-secundario.p-3.mb-5.abajo-derecha
-        p.mb-0 En el año 2020, AWS hizo convenios con la empresa colombiana SENA, para formar profesionales en tecnologías como: ciencias de datos, inteligencia artificial y <em>Cloud Computing</em>, con lo que se espera formar a más de 150.000 colombianos.
+        p.mb-0 En el año 2020, AWS hizo convenios con la empresa colombiana SENA, para formar profesionales en tecnologías como ciencias de datos, inteligencia artificial y Cloud Computing con lo que se espera formar a más de 150.000 colombianos.
 
     .row.mt-3
       p Amazon Web Services ofrece herramientas como las siguientes:
@@ -284,17 +284,17 @@
       .col-lg-8(data-aos="fade-left")
         AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
           div(titulo="Bases de datos")
-            p Entre las diferentes bases de datos que ofrece el servicio AWS están MySQL, posgreSQL, Oracle, SQL server, Amazon Aurora.
+            p Entre las diferentes bases de datos que ofrece el servicio AWS están MySQL, posgreSQL, Oracle, SQL server y Amazon Aurora.
           div(titulo="Creación de redes virtuales")
             p Permite a los usuarios crear redes privadas virtuales en la nube.
           div(titulo="Aplicación en el ámbito empresarial")
-            p Amazon WorkMail es el servicio de correo que ofrece Amazon a través de este se gestionan los correos empresariales.
+            p Amazon WorkMail es el servicio de correo que ofrece Amazon; a través de este se gestionan los correos empresariales.
           div(titulo="Almacenamiento y gestores de contenido")
-            p Ofrece diferentes tipos de almacenamiento desde archivos con acceso regular poco frecuente o incluso como un solo archivo.
+            p Ofrece diferentes tipos de almacenamientos desde archivos con acceso regular poco frecuente o incluso como un solo archivo.
           div(titulo="<em>Cloud computing</em>")
             p Desarrollado para la creación de instancias y mantenimiento.
           div(titulo="Inteligencia de negocios ")
-            p Permite realizar análisis de datos empresariales a gran volumen, y servicios para la gestión de flujos de datos.
+            p Permite realizar análisis de datos empresariales a gran volumen y servicios para la gestión de flujos de datos.
           div(titulo="Gestión de aplicaciones móviles")
             p Proporciona herramientas para la creación, testeo y mantenimiento de aplicaciones móviles utilizando entornos <em>web</em>.
           div(titulo="Internet de las cosas ")
@@ -315,20 +315,20 @@
         div(style="background-color: #ffb30b").p-3
           .contenedor-dashed.p-3
             .bg-white.p-3
-              p Muchas empresas apuestan por crear máquinas virtuales en los equipos debido a que esto les permite multiplicar sus recursos y trabajar en entornos seguros; pero ¿qué es la virtualización?
+              p Muchas empresas apuestan por crear máquinas virtuales en los equipos debido a que esto les permite multiplicar sus recursos y trabajar en entornos seguros; pero, ¿qué es la virtualización?
 
               p Es un proceso que consiste en crear entornos virtuales y simulados dentro de una máquina física. Sería como crear pequeños equipos virtuales y, de esta manera, se puede trabajar en ellos como si se tratara del equipo físico. Dentro de sus funciones están:
 
               ul.lista-ul--color
-                li
+                li.d-flex
                   i.fas.fa-check.fa-xs
                   p.mb-0 La capacidad de adaptar procesos internos a un entorno digital, para favorecer el trabajo colaborativo.
 
-                li
+                li.d-flex
                   i.fas.fa-check.fa-xs
                   p.mb-0 Optimizar el aprovechamiento de los recursos, multiplicando los entornos de trabajo.
 
-                li
+                li.d-flex
                   i.fas.fa-check.fa-xs
                   p.mb-0 Favorecer un almacenamiento seguro de la información, en un entorno virtual.
 
@@ -347,7 +347,7 @@
           h5 Figura 7
           br
           span Funcionamiento <em>software</em> de virtualización
-        img(src='@/assets/curso/temas/tema3/img14.svg', alt='Diagrama del funcionamiento de un software de virtualización.')
+        img(src='@/assets/curso/temas/tema3/img14.svg', alt='Ordenador Físico: Windows Programa Máquina virtual (host): 1. Maquina virtual de Windows 95: Windows 95 (guest). 2. Maquina virtual de Windows 10: Windows 10 (guest). 3. Maquina virtual de Ubuntu 7.04: Ubuntu 7.04 (guest).')
         figcaption Tomada de Ramírez (2016)
       .col-lg-8(data-aos="fade-left")
         AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
@@ -355,7 +355,7 @@
             p Considerado como el mejor <em>software</em> para la virtualización porque está disponible en forma libre, es muy sencillo y versátil y cuenta con funcionalidades para ejecutar la máquina virtual en pantalla completa.
           div(titulo="Citrix XenServer")
             p Se ha destacado como uno de los mejores, ya que integra tecnología Xen, que proporciona entornos administrables seguros y fiables.
-          div(titulo="VMware Workstation")
+          div(titulo="VMware")
             p Permite crear múltiples máquinas virtuales y un <em>software</em> muy robusto en cuanto a compatibilidad y rendimiento.
           div(titulo="Sandboxie ")
             p Permite ejecutar <em>software</em> malicioso sin afectaciones al resto del equipo; una vez que se finalice la sesión, el entorno de prueba será eliminado.
@@ -372,7 +372,7 @@
           div(titulo="KVM")
             p Es capaz de hacer funcionar máquinas virtuales a través de imágenes de disco con sistemas operativos.
           div(titulo="Aviat Design")
-            p Puede automatizar y virtualizar redes inalámbricas, además permite trabajar con la herramienta desde cualquier lugar y en cualquier momento.
+            p Puede automatizar y virtualizar redes inalámbricas; además, permite trabajar con la herramienta desde cualquier lugar y en cualquier momento.
 
 </template>
 

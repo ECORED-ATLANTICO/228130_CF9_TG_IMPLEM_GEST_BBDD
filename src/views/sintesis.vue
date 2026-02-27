@@ -3,9 +3,7 @@
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-
-    p Recuerde explorar los demás recursos que se encuentran disponibles en este componente formativo; para ello, diríjase al menú principal, donde encontrará la síntesis, una actividad didáctica para reforzar los conceptos estudiados, material complementario, entre otros.
-
+    p.mb-5 El siguiente mapa integra los criterios y especificidades de los conocimientos expuestos en el presente componente formativo:
     .row.justify-content-center
       .col-md-10.mb-5
         figure
@@ -13,7 +11,7 @@
       .col-10.d-flex.justify-content-center
         a.d-inline-block.anexo.mb-4(:href="obtenerLink('/downloads/sintesis.pdf')" target="_blank")
           .anexo__icono
-            img(src="@/assets/template/icono-pdf.svg")
+            img(src="@/assets/template/icono-pdf.svg", alt="Computación en la nube: 1. Inteligencia artificial. 2. Centro de datos. 3. Contenedores. 4. Máquinas virtuales. 5. Almacenamiento. 6. Seguridad.")
           .anexo__texto
             p Anexo. Síntesis
 
