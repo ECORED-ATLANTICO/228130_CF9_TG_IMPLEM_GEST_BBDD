@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Servicios de red, virtualización y pruebas de red',
     descripcionCurso:
-      'La tecnología avanza a pasos significativos, y es por esta razón que es importante tener claros muchos de los conceptos relacionados con esta temática. Hoy en día, las empresas y organizaciones implementan sistemas de redes que permiten mejorar el rendimiento y productividad de las mismas; esto se presenta, debido a que automatizan procesos brindando beneficios, entre otros, la reducción de gastos y tiempos de ejecución. La buena planificación, implementación y mantenimiento de una red es vital para la aplicación de tales tecnologías en las organizaciones.',
+      'La tecnología avanza a pasos significativos, y es por esta razón que es importante tener claros muchos de los conceptos relacionados con esta temática. Hoy en día, las empresas y organizaciones implementan sistemas de redes que permiten mejorar el rendimiento y productividad de las mismas; esto se presenta debido a que automatizan procesos, brindando beneficios, entre otros, la reducción de gastos y tiempos de ejecución. La buena planificación, implementación y mantenimiento de una red es vital para la aplicación de tales tecnologías en las organizaciones.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -29,13 +29,12 @@ export default {
       },
       {
         nombreRuta: 'introduccion',
-        icono: 'fas fa-info',
+        icono: 'fas fa-info-circle',
         titulo: 'Introducción',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema1',
-        icono: 'far fa-file-alt',
         numero: '1',
         titulo: 'Servicios de red',
         desarrolloContenidos: true,
@@ -43,14 +42,12 @@ export default {
 
       {
         nombreRuta: 'tema2',
-        icono: 'far fa-file-alt',
         numero: '2',
         titulo: '<em>Cloud computing</em>        ',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema3',
-        icono: 'far fa-file-alt',
         numero: '3',
         titulo: 'Virtualización y <em>software</em> de virtualización',
         desarrolloContenidos: true,
@@ -58,14 +55,12 @@ export default {
 
       {
         nombreRuta: 'tema4',
-        icono: 'far fa-file-alt',
         numero: '4',
         titulo: 'Contenedores',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema5',
-        icono: 'far fa-file-alt',
         numero: '5',
         titulo:
           'Sistemas de control de versiones, GIT, Integración y entrega continua',
@@ -91,11 +86,6 @@ export default {
         titulo: 'Glosario',
       },
       {
-        nombreRuta: 'complementario',
-        icono: 'far fa-folder-open',
-        titulo: 'Material complementario',
-      },
-      {
         icono: 'fas fa-book',
         titulo: 'Referencias bibliográficas',
         nombreRuta: 'referencias',
@@ -112,40 +102,6 @@ export default {
       },
     ],
   },
-  complementario: [
-    {
-      tema: 'Servicios de red',
-      referencia:
-        'Philippe, F. (2010). <em>Windows server 2008: los servicios de red TCP/IP</em>. Ediciones ENI.',
-      tipo: 'Libro PDF',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_biblioteca_eniRIT08TCP',
-    },
-    {
-      tema: 'Virtualización y <em>software</em> de virtualización',
-      referencia:
-        'Philippe, P. (2021). <em>Microsoft Azure: gestione su sistema de información en la nube. Ediciones ENI</em>.',
-      tipo: 'Libro PDF',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_biblioteca_eniEPT3AZWIN',
-    },
-    {
-      tema: '<em>Cloud Computing</em>',
-      referencia:
-        'Joyanes, L. (2012). Computación en la nube: Estrategias de Cloud Computing en las empresas. Alfaomega Grupo Editor. ',
-      tipo: 'Libro PDF',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000061577',
-    },
-    {
-      tema: '<em>Cloud Computing</em>',
-      referencia:
-        'Villarino, J. (2018). <em>La privacidad en el entorno del Cloud Computing</em>. Editorial Reus.',
-      tipo: 'Libro PDF',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_elibroELB121544',
-    },
-  ],
   glosario: [
     {
       termino: 'DHCP',

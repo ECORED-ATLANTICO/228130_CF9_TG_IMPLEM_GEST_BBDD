@@ -15,7 +15,7 @@
         .col-lg-8
           .contenedor-dashed.p-4
             .bloque-texto-a__texto.p-4
-              p.mb-0 Apreciado aprendiz, bienvenido a este componente formativo, donde se abordarán las generalidades y aspectos claves de los servicios de red, tipos de servicios, nube, software de virtualización y sistemas de control de versiones.
+              p.mb-0 Apreciado aprendiz, bienvenido a este componente formativo, donde se abordarán las generalidades y aspectos claves de los servicios de red, tipos de servicios, nube, #[em software] de virtualización y sistemas de control de versiones.
     
     .row.mt-5
       p Aprópiese de todos los contenidos que han sido diseñados para su aprendizaje; afiance sus saberes y conviértase en experto en red, virtualización, herramientas, plataformas de despliegues, pruebas de red, entre otros.

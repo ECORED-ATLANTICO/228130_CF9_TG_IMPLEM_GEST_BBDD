@@ -6,6 +6,15 @@
       .titulo-principal__numero
         span 4
       h1 Contenedores
+    
+    .row.justify-content-center.mb-5
+      .col-lg-8(data-aos="fade-right")
+        div(style="background-color: #ffe4a9").p-3
+          .contenedor-dashed.p-3
+            .bg-white.p-3
+              p.mb-0 Muchas empresas apuestan por crear máquinas virtuales en los equipos, ya que esto les permite multiplicar sus recursos y trabajar en entornos seguros; pero ¿qué es la virtualización?; este es un proceso que consiste en crear entornos virtuales simulados dentro de una máquina física, dicho de esta forma sería como crear pequeños equipos virtuales, de esta manera se puede trabajar en ellos como si se tratara del equipo físico. Dentro de sus funciones está la capacidad de adaptar procesos internos a un entorno digital para favorecer el trabajo colaborativo, optimizar el aprovechamiento de los recursos multiplicando los entornos de trabajo, y favorecer un almacenamiento seguro de la información en un entorno virtual. (Gouigoux, 2018). Hay que resaltar que una máquina virtual no puede ingresar a la información o datos de la máquina anfitriona, para que funcione el <em>software</em> de virtualización, este mapea los dispositivos virtuales dependiendo de los reales que se encuentren en la máquina física.
+      .col-lg-4.col-8(data-aos="fade-left"): img(src='@/assets/curso/temas/tema4/1.svg', alt='')
+
     .bloque-texto-derecha
       .bloque-texto-a.bloque-texto-p.p-4.mb-5(data-aos="zoom-in" style="background-color: #ffecc1 ")
         .row.m-0.align-items-center.justify-content-between
@@ -16,19 +25,16 @@
 
                   br
                   br
-                  |Los contenedores se pueden definir como un mecanismo emergente, que utiliza medios de pruebas de aplicaciones; estos se utilizan en computadores domésticos y de igual manera ofrecen soluciones de red empresariales utilizando la web. Se puede asimilar un contenedor con una máquina virtual, ya que en su interior se encuentra un entorno Linux con todas las funcionalidades, usuarios y sistemas de archivos. (Gouigoux, 2018)
+                  |Los contenedores se pueden definir como un mecanismo emergente, que utiliza medios de pruebas de aplicaciones; estos se utilizan en computadores domésticos y de igual manera ofrecen soluciones de red empresariales utilizando la <em>web</em>. Se puede asimilar un contenedor con una máquina virtual, ya que en su interior se encuentra un entorno Linux con todas las funcionalidades, usuarios y sistemas de archivos. (Gouigoux, 2018).
                   br
                   br
-                  |También es posible ejecutar varios contenedores al tiempo, cada uno con sus instalaciones y dependencias. Los contenedores comparten recursos del <em>host</em>, lo que hace que los contenedores sean más pequeños y rápidos que las máquinas virtuales. Los contenedores fueron diseñados para sustituir a las máquinas virtuales, como plataformas para la implementación de microservicios. 
+                  |También es posible ejecutar varios contenedores al tiempo, cada uno con sus instalaciones y dependencias. Los contenedores comparten recursos del <em>host</em>, lo que hace que los contenedores sean más pequeños y rápidos que las máquinas virtuales. Los contenedores fueron diseñados para sustituir a las máquinas virtuales, como plataformas para la implementación de microservicios.
                   
           .col-lg-4.mb-4.mb-lg-0.p-4
             img(src='@/assets/curso/temas/tema5/1.svg', alt='')
     
     .row.mt-5
-      ul.lista-ul--color
-          li
-            i.fas.fa-square
-            h3 Algunas generalidades de los contenedores
+      h3 Algunas generalidades de los contenedores
 
     .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5(style='border: 2px solid #ffb30b')
       .bloque-texto-g__img(
@@ -39,13 +45,10 @@
           p.mb-0 Al utilizar contenedores, los clientes evitan que se produzcan problemas de incompatibilidad o bloqueos; esto hace que mejore el rendimiento de todos los equipos. Por esta razón, los desarrolladores se pueden enfocar en la aplicación y sin sistemas operativos. Los contenedores ofrecen un óptimo despliegue en <em>clústers</em>, al dividir los componentes en contenedores; los desarrolladores también pueden actualizar individualmente, en vez de reprocesar toda la aplicación.
             br
             br
-            |Ahora bien, con relación a la diferencia entre las máquinas virtuales y los contenedores, se puede decir que las máquinas virtuales emulan el <em>hardware</em> para que se pueda ejecutar en varias instancias, en un mismo sistema operativo. Otra de las ventajas es que se pueden ejecutar diferentes sistemas operativos en un mismo servidor. Ahora bien, un contenedor virtualiza el sistema operativo y hace que la aplicación en el contenedor, crea que tiene el sistema operativo; este se puede ejecutar desde cualquier lugar y para esto no se necesita arrancar un sistema operativo ni cargar bibliotecas. (Gouigoux, 2018)
+            |Ahora bien, con relación a la diferencia entre las máquinas virtuales y los contenedores, se puede decir que las máquinas virtuales emulan el <em>hardware</em> para que se pueda ejecutar en varias instancias, en un mismo sistema operativo. Otra de las ventajas es que se pueden ejecutar diferentes sistemas operativos en un mismo servidor. Ahora bien, un contenedor virtualiza el sistema operativo y hace que la aplicación en el contenedor, crea que tiene el sistema operativo; este se puede ejecutar desde cualquier lugar y para esto no se necesita arrancar un sistema operativo ni cargar bibliotecas. (Gouigoux, 2018).
 
     .row.mt-5
-      ul.lista-ul--color
-          li
-            i.fas.fa-square
-            h3 Características de los contenedores
+      h3 Características de los contenedores
 
     p.mb-5(data-aos='fade-right') Dentro de las características de los contenedores se pueden encontrar las siguientes:
 
@@ -63,12 +66,12 @@
               li
                 .lista-ol--cuadro__vineta(style='background-color: #084a93')
                   span 2
-                p.mb-0 #[b Disponibilidad para uso desde cualquier parte:]  permite ejecutar aplicaciones y proyectos desde cualquier parte del mundo, brindando tranquilidad en la realización de aplicativos, evitando el uso de discos externos y memorias, entre otros dispositivos.
+                p.mb-0 #[b Disponibilidad para uso desde cualquier parte:] permite ejecutar aplicaciones y proyectos desde cualquier parte del mundo, brindando tranquilidad en la realización de aplicativos, evitando el uso de discos externos y memorias, entre otros dispositivos.
 
               li
                 .lista-ol--cuadro__vineta(style='background-color: #084a93')
                   span 3
-                p.mb-0 #[b Agilidad:]  en entornos portables, donde no se necesita la ejecución de sistemas operativos e instalación de aplicativos que hacen que el trabajo sea más lento; se destacan los contenedores en el trabajo ágil y ligero para el desarrollo de los proyectos de <em>software</em>.
+                p.mb-0 #[b Agilidad:] en entornos portables, donde no se necesita la ejecución de sistemas operativos e instalación de aplicativos que hacen que el trabajo sea más lento; se destacan los contenedores en el trabajo ágil y ligero para el desarrollo de los proyectos de <em>software</em>.
               li
                 .lista-ol--cuadro__vineta(style='background-color: #084a93')
                   span 4
@@ -76,7 +79,7 @@
               li
                 .lista-ol--cuadro__vineta(style='background-color: #084a93')
                   span 5
-                p.mb-0 #[b Menos sobrecarga:] al poder utilizar contenedores en entornos web, se garantiza que las máquinas no usen su <em>hardware</em> y <em>software</em>, porque se están ejecutando los aplicativos mediante la utilización de servidores externos que proporcionan capacidades de <em>hardware</em>, según los requerimientos determinados por el cliente.
+                p.mb-0 #[b Menos sobrecarga:] al poder utilizar contenedores en entornos <em>web</em>, se garantiza que las máquinas no usen su <em>hardware</em> y <em>software</em>, porque se están ejecutando los aplicativos mediante la utilización de servidores externos que proporcionan capacidades de <em>hardware</em>, según los requerimientos determinados por el cliente.
 
           .cajon-b.color-primario.p-3.pt-0.mb-5.abajo-derecha
             ol.lista-ol--cuadro
@@ -93,10 +96,7 @@
     
     
     .row.mt-5
-      ul.lista-ul--color
-          li
-            i.fas.fa-square
-            h3 Imágenes
+      h3 Imágenes
      
     p.mb-5(data-aos='fade-right') Es una plantilla de solo lectura, con todas las instrucciones que necesita el motor de Docker para crear un contenedor. Una imagen Docker se describe en forma de archivo de texto. Antes de iniciar un contenedor en un sistema, se carga un paquete con la imagen correspondiente, si no está ya guardada de forma local.
     .row.justify-content-center.mb-5
@@ -109,7 +109,7 @@
 
                 br
                 br
-                |La ejecución de una imagen dentro de un contenedor, implica la posibilidad de convertirse en una o varias instancias; estas imágenes se pueden comparar con un sistema de máquinas virtuales, que se utilizan en los entornos. Las imágenes se pueden encontrar en diferentes repositorios, y uno de los más conocidos es el <em>Docker Hub</em>, en donde se pueden encontrar imágenes públicas que se utilizan en los proyectos; lo que se debe hacer es descargar la imagen y empezar creando las diferentes capas que se requieren para la aplicación. Gouigoux. (2018)
+                |La ejecución de una imagen dentro de un contenedor implica la posibilidad de convertirse en una o varias instancias; estas imágenes se pueden comparar con un sistema de máquinas virtuales, que se utilizan en los entornos. Las imágenes se pueden encontrar en diferentes repositorios, y uno de los más conocidos es el <em>Docker Hub</em>, en donde se pueden encontrar imágenes públicas que se utilizan en los proyectos; lo que se debe hacer es descargar la imagen y empezar creando las diferentes capas que se requieren para la aplicación. (Gouigoux, 2018).
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8(data-aos="fade-left")
@@ -120,7 +120,7 @@
 
                 br
                 br
-                |Un ejemplo de una imagen podría contener un sistema operativo Ubuntu con un servidor SQL y la aplicación web desarrollada instalada, las imágenes se utilizan para crear contenedores y nunca cambian; existen imágenes de tipo privadas y públicas y estas pueden contener elementos básicos como Java, Ubuntu o Apache, entre otros que se pueden descargar. Generalmente cuando se crea una imagen se parte de una imagen padre, a la que se le van adicionando cosas.
+                |Un ejemplo de una imagen podría contener un sistema operativo Ubuntu con un servidor SQL y la aplicación <em>web</em> desarrollada instalada. Las imágenes se utilizan para crear contenedores y nunca cambian; existen imágenes de tipo privado y público, y estas pueden contener elementos básicos como Java, Ubuntu o Apache, entre otros que se pueden descargar. Generalmente cuando se crea una imagen se parte de una imagen padre, a la que se le van adicionando cosas.
       .col-lg-4.col-8(data-aos="fade-right"): img(src='@/assets/curso/temas/tema5/5.svg', alt='')
     
     .row.justify-content-center.mb-5
@@ -142,10 +142,7 @@
               | Manifiesto de imagen: describe la agrupación de las capas que contiene.
     
     .row.mt-5
-      ul.lista-ul--color
-          li
-            i.fas.fa-square
-            h3 Despliegue y gestión
+      h3 Despliegue y gestión
 
     p.mb-5(data-aos='fade-right') Para el despliegue y la gestión, lo primero que se debe hacer es crear una imagen en Docker, para así poder lanzar un contenedor a partir de ella. A continuación, se presentan los comandos a utilizar para el despliegue:
     
@@ -157,7 +154,7 @@
           div(titulo="Run")
             p # docker run …
               br
-              |Este comando identifica que se va a alanzar un contenedor; todo lo que se encuentre a la derecha de run significará que será una configuración específica para la manipulación del contenedor.  
+              |Este comando identifica que se va a lanzar un contenedor; todo lo que se encuentre a la derecha de run significará que será una configuración específica para la manipulación del contenedor.  
           div(titulo="- -rm")
             p Permite eliminar el contenedor que se está ejecutando, esto es necesario para usar un programa que solo esté en el contenedor y ejecutar algo dentro.
           div(titulo="- -name")
@@ -165,7 +162,7 @@
           div(titulo="-d")
             p Hace que un contenedor corra por debajo después de terminar la ejecución del comando.
           div(titulo="-it")
-            p Abre un canal interactivo, una terminal. 
+            p Abre un canal interactivo; una terminal. 
           div(titulo="-p")
             p Este comando asigna puertos entre el local y el contenedor.
               br
@@ -197,19 +194,17 @@
               .row.justify-content-between.align-items-center
                 .col-10.mb-3.mb-sm-0
                   h3.mb-1 Instalación del contenedor
-                  p.text-small Igualmente, puede visualizar el paso a paso correspondiente, haciendo clic en el botón descargar.
+                  p.text-small Igualmente, puede consultar el anexo CF9_228130_Anexo.pdf que se encuentra en la carpeta de anexos para visualizar el paso a paso correspondiente.
                 .col.mb-3.mb-sm-0
-                  a.boton.color-acento-botones.text-black(:href="obtenerLink('downloads/CF9_228130_Anexo.pdf')" target="_blank" type="application/pdf")
+                  a.boton.color-acento-botones.text-black(:href="obtenerLink('downloads/anexos/CF9_228130_Anexo.pdf')" target="_blank" type="application/pdf")
                     span Descargar 
                     i.fas.fa-file-download
-
- 
 
 </template>
 
 <script>
 export default {
-  name: 'Tema5',
+  name: 'Tema4',
   data: () => ({
     // variables de vue
   }),
