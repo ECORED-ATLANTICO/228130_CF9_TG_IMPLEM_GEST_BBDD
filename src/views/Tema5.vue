@@ -13,9 +13,9 @@
 
       p Dentro de los elementos importantes de los sistemas de control de versiones, se resaltan los siguientes:
 
-    .row.justify-content-center.mb-5
-      .col-lg-4.col-8(data-aos="fade-right")
-        img(src='@/assets/curso/temas/tema6/1.svg', alt='')
+    .row.justify-content-center.mb-5.align-items-center
+      .col-lg-4.col-md-6(data-aos="fade-right")
+        img.mb-4.mb-lg-0(src='@/assets/curso/temas/tema6/1.svg', alt='')
       .col-lg-8(data-aos="fade-left")
         AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
           div(titulo="¿Qué es?")
@@ -35,7 +35,7 @@
               |El control de versiones ayuda al grupo de desarrolladores a resolver este tipo de problemas al realizar seguimiento a todos los cambios individuales de cada colaborador, esto al contribuir a evitar que el trabajo entre en conflicto. Los cambios realizados por una parte del <em>software</em> pueden ser incompatibles con los que hayan escrito o desarrollado otros desarrolladores que estén trabajando al mismo tiempo. Este problema debe gestionarse de una manera ordenada sin interferir en el trabajo del resto del equipo, un buen <em>software</em> de control de versiones soporta el flujo de trabajo de un desarrollador sin imponer una forma de trabajar, también forma en cualquier plataforma. Estos también facilitan el flujo sencillo y continuo del código.
           div(titulo="Equipos de software")
             p Los equipos de <em>software</em> que no utilizan ninguna plataforma de control de versiones con frecuencia se encuentran con problemas como el no saber qué cambios que se han realizado están disponibles para los usuarios; si es un desarrollador que nunca ha utilizado el control de versiones, puede que haya añadido versiones a los archivos y el <em>software</em> de control de versiones es una parte fundamental en el área de las prácticas profesionales del equipo de mismo. Los desarrolladores individuales están acostumbrados a trabajar con un sistema de control de versiones potente, en sus equipos; por ende, suelen reconocer el increíble valor que el control de versiones da a los proyectos. (Dauzon, 2022).
-    .row.justify-content-center.mb-5.g-0.align-items-center
+    .row.justify-content-center.mb-5.align-items-center.g-xl-0
       .col-lg-8(data-aos="fade-left")
         div(style="background-color: #ffb30b").p-3
           .contenedor-dashed.p-4
@@ -45,9 +45,9 @@
                 br
                 br
                 |Los repositorios Git incluyen las funcionalidades de crear ramas, fusionar y reescribir información en los proyectos, lo cual ha resultado de mucha ayuda en trabajos colaborativos por su fluidez en trabajos innovadores y eficaces. También es una de las herramientas más populares con las que los equipos pueden colaborar en las ramas y revisar con eficacia el código de los demás; se considera el modelo actual para el desarrollo del <em>software</em>.
-      .col-lg-4.col-8(data-aos="fade-right"): img(src='@/assets/curso/temas/tema6/2.svg', alt='')
-    .row.justify-content-center.mb-5.g-0.align-items-center
-      .col-lg-4.col-8(data-aos="fade-right"): img(src='@/assets/curso/temas/tema6/3.svg', alt='')
+      .col-lg-4.col-md-6(data-aos="fade-right"): img.mt-4.mt-lg-0(src='@/assets/curso/temas/tema6/2.svg', alt='')
+    .row.justify-content-center.mb-5.g-xl-0.align-items-center
+      .col-lg-4.d-none.d-lg-block(data-aos="fade-right"): img(src='@/assets/curso/temas/tema6/3.svg', alt='')
       .col-lg-8(data-aos="fade-left")
         div(style="background-color: #00defc").p-3
           .contenedor-dashed.p-4
@@ -62,9 +62,9 @@
         .cajon.color-acento-contenido.p-4.mb-4(style="background-color: #ffe4a9")
           p.mb-0 Gracias a que la integración permite a los desarrolladores subir y fusionar los cambios del código en una misma rama del repositorio, el objetivo de la integración es garantizar que las nuevas características se fusionen a la base del código y al código entrante; esto se traduce en ejecución de pruebas. (Dauzon, 2022).
     p.mb-5(data-aos='fade-right') Git es una plataforma de desarrollo colaborativo donde se almacenan proyectos que utilizan un sistema para el control de versiones. Para entenderlo es necesario explicar cada uno de los comandos para el manejo de la herramienta, que se hace indispensable para cualquier grupo o proyecto de <em>software</em>. Dentro de los comandos básicos se encuentran:
-    .row.justify-content-center
-      .col-lg-8(data-aos="fade-left")
-        AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
+    .row.justify-content-center.align-items-center.mb-4.mb-lg-5
+      .col-lg-8(data-aos="fade-left").mb-4.mb-lg-0
+        AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
           div(titulo="Git <em> init</em>")
             p Para crear un nuevo repositorio se usa el comando Git Init; este es un comando que se utiliza una vez durante la configuración inicial. Cuando se ejecuta este comando, se creará un nuevo subdirectorio git en el repositorio actual; también se creará una nueva rama principal.
           div(titulo="Git <em> clone</em>")
