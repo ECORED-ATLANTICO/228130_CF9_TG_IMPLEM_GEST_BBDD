@@ -8,8 +8,8 @@
       h1 <em>Cloud computing</em>
     .bloque-texto-derecha
       .bloque-texto-a.bloque-texto-p.p-4.mb-5(data-aos="zoom-in" style="background-color: #ffecc1 ")
-        .row.m-0.align-items-center.justify-content-between
-          .col-lg-8
+        .row.m-0.align-items-center.justify-content-center
+          .col-xl-7
             .contenedor-dashed.p-4
               .bloque-texto-a__texto.p-4
                 p.mb-0 Tiene como finalidad ofrecer servicios utilizando conectividad mediante la Internet; esta permite el acceso a recursos del <em>software</em> a nivel mundial, en tiempo real. Es importante resaltar que la multilocación es lo que hace diferente a este sistema, haciendo que los procesos sean mucho más eficientes que las aplicaciones antiguas. (Villarino, 2018).
@@ -17,7 +17,7 @@
                   br
                   | La computación y el acceso a la nube brindan, a personas y empresas, varias ventajas como son la seguridad, conectividad y mantenimiento en el uso de la información; es por esto por lo que las empresas tienen mayor flexibilidad en relación con los datos, a los que pueden ingresar desde cualquier parte del mundo. Esta es una tecnología que brinda la posibilidad de acceder remotamente al <em>software</em>, archivos remotos y procesamiento de la información, utilizando Internet; en este modelo, no es necesaria la instalación de una aplicación local, lo que brinda mucha más seguridad. (Joyanes, 2012).
 
-          .col-lg-4.mb-4.mb-lg-0.p-4
+          .col-lg-8.col-xl-5.mb-4.mb-lg-0.p-4
             .titulo-sexto.color-acento-contenido(data-aos='fade-right')
               h5 Figura 4
               br
@@ -25,7 +25,7 @@
             img(src='@/assets/curso/temas/tema2/1.svg', alt='Diagrama computación en la nube: - Plataforma. - Aplicación. - Infraestructura.')
 
     .row.mt-5
-      h3 Tipos de servicios
+      h3.mb-4 Tipos de servicios
     
     p.mb-5(data-aos='fade-right') En la actualidad existen diversas empresas que manejan la información en la nube, ofreciendo una variedad de servicios los cuales se pueden clasificar en:
     .row.justify-content-center.mb-5
@@ -56,10 +56,10 @@
             p Cuando se habla de la IaaS, se hace referencia a estructuras como servicios; las organizaciones hacen contrataciones de infraestructura de <em>hardware</em> a un tercero a cambio de un pago; en esta se pueden elegir las características y capacidades en el procesador, memoria y capacidad de disco duro según los requerimientos de la empresa. También se ofrecen máquinas virtuales, sistemas de copia de seguridad y <em>firewall</em>. (Gouigoux, 2018).
 
     .row.mt-5
-      h3 Modelos de servicios en la nube
+      h3.mb-4 Modelos de servicios en la nube
 
     .row.justify-content-center.mb-5
-      .col-lg-2.col-5(data-aos="fade-right"): img(src='@/assets/curso/temas/tema2/3.png', alt='')
+      .col-lg-2.col-5(data-aos="fade-right"): img.mb-4.mb-lg-0(src='@/assets/curso/temas/tema2/3.png', alt='')
       .col-lg-10(data-aos="fade-left")
         ul.lista-ul--color
           li.d-flex
@@ -74,7 +74,7 @@
             p.mb-0 #[b Consumidor:] se podrá acceder a los recursos ofrecidos por el proveedor; este podrá hacer uso de los mismos.
     
     .row.mt-5
-      h3 Tipos de nubes
+      h3.mb-4 Tipos de nubes
 
     p.mb-5(data-aos='fade-right') Las empresas, al ofrecer sus servicios a través de la web (nube), pueden presentarlo de tres formas:
 
