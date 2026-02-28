@@ -7,7 +7,7 @@
         span 4
       h1 Contenedores
     
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5.align-items-center
       .col-lg-8(data-aos="fade-right")
         div(style="background-color: #ffe4a9").p-3
           .contenedor-dashed.p-3
@@ -17,7 +17,7 @@
 
     .bloque-texto-derecha
       .bloque-texto-a.bloque-texto-p.p-4.mb-5(data-aos="zoom-in" style="background-color: #ffecc1 ")
-        .row.m-0.align-items-center.justify-content-between
+        .row.m-0.align-items-center.justify-content-center
           .col-lg-8
             .contenedor-dashed.p-4
               .bloque-texto-a__texto.p-4
@@ -30,7 +30,7 @@
                   br
                   |También es posible ejecutar varios contenedores al tiempo, cada uno con sus instalaciones y dependencias. Los contenedores comparten recursos del <em>host</em>, lo que hace que los contenedores sean más pequeños y rápidos que las máquinas virtuales. Los contenedores fueron diseñados para sustituir a las máquinas virtuales, como plataformas para la implementación de microservicios.
                   
-          .col-lg-4.mb-4.mb-lg-0.p-4
+          .col-md-8.col-lg-4.mb-4.mb-lg-0.p-4
             img(src='@/assets/curso/temas/tema5/1.svg', alt='')
     
     .row.mt-5
@@ -52,44 +52,42 @@
 
     p.mb-5(data-aos='fade-right') Dentro de las características de los contenedores se pueden encontrar las siguientes:
 
-    .row.justify-content-center.mb-5
-      .col-lg-2.col-6(data-aos="fade-right"): img(src='@/assets/curso/temas/tema5/3.svg', alt='')
-      .col-lg-10(data-aos="fade-left")
+    .row.justify-content-center.mb-5.align-items-center
+      .d-none.d-xl-block.col-lg-2.col-6(data-aos="fade-right"): img(src='@/assets/curso/temas/tema5/3.svg', alt='')
+      .col-xl-10(data-aos="fade-left")
         .cajon-b-amarillo
           .cajon-b.color-primario.p-3.pb-0
             ol.lista-ol--cuadro
-              li
+              li.d-flex
                 .lista-ol--cuadro__vineta(style='background-color: #084a93')
                   span 1
                 p.mb-0 #[b Portabilidad:] ofrece la posibilidad de desplegarlo en cualquier otro sistema y, además, permite un ahorro en la posibilidad de tener que instalar aplicaciones que, normalmente, se usan en el entorno.
 
-              li
+              li.d-flex
                 .lista-ol--cuadro__vineta(style='background-color: #084a93')
                   span 2
                 p.mb-0 #[b Disponibilidad para uso desde cualquier parte:] permite ejecutar aplicaciones y proyectos desde cualquier parte del mundo, brindando tranquilidad en la realización de aplicativos, evitando el uso de discos externos y memorias, entre otros dispositivos.
 
-              li
+              li.d-flex
                 .lista-ol--cuadro__vineta(style='background-color: #084a93')
                   span 3
                 p.mb-0 #[b Agilidad:] en entornos portables, donde no se necesita la ejecución de sistemas operativos e instalación de aplicativos que hacen que el trabajo sea más lento; se destacan los contenedores en el trabajo ágil y ligero para el desarrollo de los proyectos de <em>software</em>.
-              li
+              li.d-flex
                 .lista-ol--cuadro__vineta(style='background-color: #084a93')
                   span 4
                 p.mb-0 #[b Seguridad:] permite la ejecución de paquetes y aplicativos de forma segura, utilizando Linux como núcleo. A su vez, los contenedores utilizan su propio sistema operativo y brindan seguridad en la información.
-              li
+              li.d-flex
                 .lista-ol--cuadro__vineta(style='background-color: #084a93')
                   span 5
                 p.mb-0 #[b Menos sobrecarga:] al poder utilizar contenedores en entornos <em>web</em>, se garantiza que las máquinas no usen su <em>hardware</em> y <em>software</em>, porque se están ejecutando los aplicativos mediante la utilización de servidores externos que proporcionan capacidades de <em>hardware</em>, según los requerimientos determinados por el cliente.
 
-          .cajon-b.color-primario.p-3.pt-0.mb-5.abajo-derecha
+          .cajon-b.color-primario.p-3.pt-0.mb-5.mb-lg-0.abajo-derecha
             ol.lista-ol--cuadro
-              li
+              li.d-flex
                 .lista-ol--cuadro__vineta(style='background-color: #084a93')
                   span 6
                 p.mb-0 #[b Mayor eficiencia:] los contenedores brindan los recursos suficientes para el desarrollo de los proyectos requeridos por el cliente.
-
-
-              li
+              li.d-flex
                 .lista-ol--cuadro__vineta(style='background-color: #084a93')
                   span 7
                 p.mb-0 #[b Mejor desarrollo de aplicaciones:] permiten el uso de amplias herramientas para el desarrollo de aplicaciones en lenguajes de programación básicos y avanzados, permitiendo calidad en el desarrollo de aplicativos.
@@ -99,8 +97,8 @@
       h3 Imágenes
      
     p.mb-5(data-aos='fade-right') Es una plantilla de solo lectura, con todas las instrucciones que necesita el motor de Docker para crear un contenedor. Una imagen Docker se describe en forma de archivo de texto. Antes de iniciar un contenedor en un sistema, se carga un paquete con la imagen correspondiente, si no está ya guardada de forma local.
-    .row.justify-content-center.mb-5
-      .col-lg-4.col-8(data-aos="fade-right"): img(src='@/assets/curso/temas/tema5/4.svg', alt='')
+    .row.justify-content-center.mb-5.align-items-center
+      .col-lg-4.col-6(data-aos="fade-right"): img.mb-2.mb-lg-0(src='@/assets/curso/temas/tema5/4.svg', alt='')
       .col-lg-8(data-aos="fade-left")
         div(style="background-color: #00defc").p-3
           .contenedor-dashed.p-3
@@ -112,7 +110,7 @@
                 |La ejecución de una imagen dentro de un contenedor implica la posibilidad de convertirse en una o varias instancias; estas imágenes se pueden comparar con un sistema de máquinas virtuales que se utilizan en los entornos. Las imágenes se pueden encontrar en diferentes repositorios, y uno de los más conocidos es el Docker Hub, en donde se pueden encontrar imágenes públicas que se utilizan en los proyectos; lo que se debe hacer es descargar la imagen y empezar creando las diferentes capas que se requieren para la aplicación. (Gouigoux, 2018).
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-8(data-aos="fade-left")
+      .col-lg-8(data-aos="fade-left").mb-4.mb-lg-0
         div(style="background-color: #ffb30b").p-3
           .contenedor-dashed.p-3
             .bg-white.p-3
@@ -121,7 +119,7 @@
                 br
                 br
                 |Un ejemplo de una imagen podría contener un sistema operativo Ubuntu con un servidor SQL y la aplicación <em>web</em> desarrollada instalada. Las imágenes se utilizan para crear contenedores y nunca cambian; existen imágenes de tipo privado y público, y estas pueden contener elementos básicos como Java, Ubuntu o Apache, entre otros que se pueden descargar. Generalmente, cuando se crea una imagen, se parte de una imagen padre, a la que se le van adicionando cosas.
-      .col-lg-4.col-8(data-aos="fade-right"): img(src='@/assets/curso/temas/tema5/5.svg', alt='')
+      .col-lg-4.col-6(data-aos="fade-right"): img(src='@/assets/curso/temas/tema5/5.svg', alt='')
     
     .row.justify-content-center.mb-5
       .col-lg-10(data-aos="zoom-in")
@@ -146,9 +144,9 @@
 
     p.mb-5(data-aos='fade-right') Para el despliegue y la gestión, lo primero que se debe hacer es crear una imagen en Docker, para así poder lanzar un contenedor a partir de ella. A continuación, se presentan los comandos a utilizar para el despliegue:
     
-    .row.justify-content-center.mb-5
-      .col-lg-4.col-8(data-aos="fade-right")
-        img(src='@/assets/curso/temas/tema5/6.svg', alt='')
+    .row.justify-content-center.mb-5.align-items-center
+      .col-lg-4.col-6(data-aos="fade-right")
+        img.mb-4.mb-lg-0(src='@/assets/curso/temas/tema5/6.svg', alt='')
       .col-lg-8(data-aos="fade-left")
         AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
           div(titulo="Run")
