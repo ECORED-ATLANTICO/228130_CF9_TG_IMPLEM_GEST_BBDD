@@ -26,45 +26,45 @@
 
       p A continuación, conozca algunos tipos de virtualización y sus generalidades:
 
-    .tarjeta(style="background-color: #f1f8ff").p-5
+    .tarjeta(style="background-color: #f1f8ff").p-3.p-lg-5
       SlyderA(tipo='b')
-        .row.justify-content-center.mb-5
+        .row.justify-content-center.mb-2.mb-lg-5.align-items-center
           .col-lg-4.order-2.order-lg-1(data-aos="fade-right")
             h5 Virtualización de los datos
             p Este permite reunir datos de varias fuentes, gestionando y transformando los datos según los requerimientos del cliente; estos datos generalmente se encuentran en varias ubicaciones y permiten dinamismo en la incorporación de fuentes.
-          .col-8.order-1.order-lg-2(data-aos="fade-left")
+          .col-lg-8.order-1.order-lg-2(data-aos="fade-left").mb-4.mb-lg-0
             .tarjeta.bg-white.p-4
               img(src='@/assets/curso/temas/tema3/2.svg', alt='Diagrama de virtualización de datos mediante un hipervisor.').mb-3
               figcaption Nota: Adaptado de Hypervisor. Red Hat (s/f).
-        .row.justify-content-center.mb-5
+        .row.justify-content-center.mb-2.mb-lg-5.align-items-center
           .col-lg-4.order-2.order-lg-1(data-aos="fade-right")
             h5 Virtualización en escritorios
             p Permite experimentar entornos simulados de escritorio en varias máquinas físicas al mismo tiempo; también permite que los administradores hagan varias actualizaciones y configuraciones en todos los escritorios virtuales.
-          .col-8.order-1.order-lg-2(data-aos="fade-left")
+          .col-lg-8.order-1.order-lg-2(data-aos="fade-left").mb-4.mb-lg-0
             .tarjeta.bg-white.p-4
               img(src='@/assets/curso/temas/tema3/3.svg', alt='Diagrama de virtualización en escritorios utilizando un hipervisor.').mb-3
               figcaption Nota: Adaptado de Hypervisor. Red Hat (s/f).
-        .row.justify-content-center.mb-5
+        .row.justify-content-center.mb-2.mb-lg-5.align-items-center
           .col-lg-4.order-2.order-lg-1(data-aos="fade-right")
             h5 Virtualización en los servidores
             p Esta permite procesar más funciones específicas; para esto se dividen los elementos y así realizar varias tareas.
-          .col-8.order-1.order-lg-2(data-aos="fade-left")
+          .col-lg-8.order-1.order-lg-2(data-aos="fade-left").mb-4.mb-lg-0
             .tarjeta.bg-white.p-4
               img(src='@/assets/curso/temas/tema3/4.svg', alt='Diagrama de virtualización en los servidores con un hipervisor.').mb-3
               figcaption Nota: Adaptado de Hypervisor. Red Hat (s/f).
-        .row.justify-content-center.mb-5
+        .row.justify-content-center.mb-2.mb-lg-5.align-items-center
           .col-lg-4.order-2.order-lg-1(data-aos="fade-right")
             h5 Virtualización en los sistemas operativos
             p Los sistemas operativos se virtualizan en su núcleo (Kernel), lo que facilita la ejecución de varios sistemas operativos en paralelo; esto genera grandes beneficios porque se reducen los gastos en el <em>hardware</em> y aumenta la seguridad, ya que las instancias virtuales se pueden aislar.
-          .col-8.order-1.order-lg-2(data-aos="fade-left")
+          .col-lg-8.order-1.order-lg-2(data-aos="fade-left").mb-4.mb-lg-0
             .tarjeta.bg-white.p-4
               img(src='@/assets/curso/temas/tema3/5.svg', alt='Diagrama de virtualización en sistemas operativos.').mb-3
               figcaption Nota: Adaptado de Hypervisor. Red Hat (s/f).
-        .row.justify-content-center.mb-5
+        .row.justify-content-center.mb-2.mb-lg-5.align-items-center
           .col-lg-4.order-2.order-lg-1(data-aos="fade-right")
             h5 Virtualización de las funciones de red
             p Se utiliza en el área de las redes y telecomunicaciones, reduce costos en el <em>hardware</em> como servidores, cables y centrales que son necesarios para crear varias redes independientes.
-          .col-8.order-1.order-lg-2(data-aos="fade-left")
+          .col-lg-8.order-1.order-lg-2(data-aos="fade-left").mb-4.mb-lg-0
             .tarjeta.bg-white.p-4
               img(src='@/assets/curso/temas/tema3/6.svg', alt='Diagrama de virtualización de funciones de red.').mb-3
               figcaption Nota: Adaptado de Hypervisor. Red Hat (s/f).
@@ -73,9 +73,9 @@
       h3 Componentes
 
     p.mb-5(data-aos='fade-right') Los siguientes son elementos que componen la virtualización:
-    .row.justify-content-center.mb-5
-      .col-lg-1.col-5(data-aos="fade-right"): img(src='@/assets/curso/temas/tema3/7.svg', alt='')
-      .col-lg-11(data-aos="fade-left")
+    .row.justify-content-center.mb-5.align-items-center
+      .col-4.col-md-3.col-lg-2(data-aos="fade-right"): img.mb-4.mb-lg-0(src='@/assets/curso/temas/tema3/7.svg', alt='')
+      .col-lg-10(data-aos="fade-left")
         ul.lista-ul--color
           li.d-flex
             i.fas.fa-check.fa-xs
@@ -92,7 +92,7 @@
 
     p.mb-5(data-aos='fade-right') Podemos decir que existen actualmente muchas herramientas que brindan <em>software</em> para la virtualización, tanto en servidores como en sistemas operativos; a continuación, se mencionan algunos <em>software</em> de virtualización, orientados a los sistemas operativos y que se han hecho populares gracias a su facilidad de uso y estabilidad:
     .row.justify-content-center.mb-5
-      .col-lg-6(data-aos="fade-right")
+      .col-lg-6(data-aos="fade-right").mb-4.mb-lg-0
         div(style="background-color: #ffb30b").p-3
           .contenedor-dashed.p-3
             .bg-white.p-3
@@ -165,8 +165,8 @@
                   i.fas.fa-check.fa-xs
                   p.mb-0 <b>Administración de identidad:</b> Active Directory es una solución en la nube, completa, para la administración de identidades y acceso. Puede, a su vez, administrar las cuentas de usuario y sincronizar con directorios locales.
 
-    .row.justify-content-center.mb-5
-      .col-lg-8(data-aos="fade-left")
+    .row.justify-content-center.mb-5.align-items-center
+      .col-lg-8(data-aos="fade-left").mb-4.mb-lg-0
         div(style="background-color: #00defc").p-3
           .contenedor-dashed.p-3
             .bg-white.p-3
@@ -227,39 +227,39 @@
       .col-lg-4(data-aos="fade-right")
         ol.lista-ol--cuadro
           li.d-flex
-          .lista-ol--cuadro__vineta(style='background-color: #084a93')
-            span 1
-          | Precios competitivos.
+            .lista-ol--cuadro__vineta(style='background-color: #084a93')
+              span 1
+            | Precios competitivos.
           li.d-flex
-          .lista-ol--cuadro__vineta(style='background-color: #084a93')
-            span 2
-          | Seguridad de nivel alto.
+            .lista-ol--cuadro__vineta(style='background-color: #084a93')
+              span 2
+            | Seguridad de nivel alto.
           li.d-flex
-          .lista-ol--cuadro__vineta(style='background-color: #084a93')
-            span 3
-          | Migración de datos a máquinas virtuales.
+            .lista-ol--cuadro__vineta(style='background-color: #084a93')
+              span 3
+            | Migración de datos a máquinas virtuales.
           li.d-flex
-          .lista-ol--cuadro__vineta(style='background-color: #084a93')
-            span 4
-          | Plataforma expansiva y escalable.
+            .lista-ol--cuadro__vineta(style='background-color: #084a93')
+              span 4
+            | Plataforma expansiva y escalable.
       .col-lg-4(data-aos="fade-left")
         ol.lista-ol--cuadro
           li.d-flex
-          .lista-ol--cuadro__vineta(style='background-color: #084a93')
-            span 5
-          | Rendimiento superior y de calidad.
+            .lista-ol--cuadro__vineta(style='background-color: #084a93')
+              span 5
+            | Rendimiento superior y de calidad.
           li.d-flex
-          .lista-ol--cuadro__vineta(style='background-color: #084a93')
-            span 6
-          | Colaboración entre usuarios y proyectos.
+            .lista-ol--cuadro__vineta(style='background-color: #084a93')
+              span 6
+            | Colaboración entre usuarios y proyectos.
           li.d-flex
-          .lista-ol--cuadro__vineta(style='background-color: #084a93')
-            span 7
-          | Copia de seguridad automática.
+            .lista-ol--cuadro__vineta(style='background-color: #084a93')
+              span 7
+            | Copia de seguridad automática.
           li.d-flex
-          .lista-ol--cuadro__vineta(style='background-color: #084a93')
-            span 8
-          | Red privada de alta velocidad.
+            .lista-ol--cuadro__vineta(style='background-color: #084a93')
+              span 8
+            | Red privada de alta velocidad.
 
     .row.mt-5
       h3 Amazon Web Services AWS
@@ -276,12 +276,12 @@
         p.mb-0 En el año 2020, AWS hizo convenios con la empresa colombiana SENA, para formar profesionales en tecnologías como ciencias de datos, inteligencia artificial y Cloud Computing con lo que se espera formar a más de 150.000 colombianos.
 
     .row.mt-3
-      p Amazon Web Services ofrece herramientas como las siguientes:
+      p.mb-4 Amazon Web Services ofrece herramientas como las siguientes:
 
-    .row.justify-content-center.mb-5
-      .col-lg-4.col-8(data-aos="fade-right")
-        img(src='@/assets/curso/temas/tema3/13.jpg', alt='')
-      .col-lg-8(data-aos="fade-left")
+    .row.justify-content-center.mb-5.align-items-center
+      .col-md-4.col-6(data-aos="fade-right")
+        img.mb-4.mb-xl-0(src='@/assets/curso/temas/tema3/13.jpg', alt='')
+      .col-xl-8(data-aos="fade-left")
         AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
           div(titulo="Bases de datos")
             p Entre las diferentes bases de datos que ofrece el servicio AWS están MySQL, posgreSQL, Oracle, SQL server y Amazon Aurora.
@@ -312,7 +312,7 @@
 
     .row.justify-content-center.mb-5
       .col-lg-8(data-aos="fade-right")
-        div(style="background-color: #ffb30b").p-3
+        div(style="background-color: #ffb30b").p-3.mb-4.mb-lg-0
           .contenedor-dashed.p-3
             .bg-white.p-3
               p Muchas empresas apuestan por crear máquinas virtuales en los equipos debido a que esto les permite multiplicar sus recursos y trabajar en entornos seguros; pero, ¿qué es la virtualización?
@@ -341,8 +341,8 @@
       p A continuación, se detallan algunos de los <em>software</em> de virtualización más populares en el mercado:
 
 
-    .row.justify-content-center.mb-5
-      .col-lg-4.col-8(data-aos="fade-right")
+    .row.justify-content-center.mb-5.align-items-center
+      .col-lg-4.col-8(data-aos="fade-right").mb-4.mb-lg-0
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
           h5 Figura 7
           br
