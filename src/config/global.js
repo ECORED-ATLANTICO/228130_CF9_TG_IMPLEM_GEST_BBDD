@@ -151,7 +151,7 @@ export default {
     {
       termino: 'RIP',
       significado:
-        'el protocolo de información de encaminamiento o <em>Routing Information Protocol </em>, es un protocolo de puerta de enlace interna o interior utilizado por los routers o encaminadores para intercambiar información acerca de redes del <em>Internet Protocol </em> a las que se encuentran conectados.',
+        'el protocolo de información de encaminamiento o <em>Routing Information Protocol</em> es un protocolo de puerta de enlace interna o interior utilizado por los routers o encaminadores para intercambiar información acerca de redes del <em>Internet Protocol </em> a las que se encuentran conectados.',
     },
     {
       termino: 'TCP',
