@@ -61,7 +61,7 @@
       .col-lg-10(data-aos="zoom-in")
         .cajon.color-acento-contenido.p-4.mb-4(style="background-color: #ffe4a9")
           p.mb-0 Gracias a que la integración permite a los desarrolladores subir y fusionar los cambios del código en una misma rama del repositorio, el objetivo de la integración es garantizar que las nuevas características se fusionen a la base del código y al código entrante; esto se traduce en ejecución de pruebas. (Dauzon, 2022).
-    p.mb-5(data-aos='fade-right') Git es una plataforma de desarrollo colaborativo donde se almacenan proyectos que utilizan un sistema para el control de versiones. Para entenderlo es necesario explicar cada uno de los comandos para el manejo de la herramienta, que se hace indispensable para cualquier grupo o proyecto de <em>software</em>. Dentro de los comandos básicos se encuentran:
+    p.mb-5(data-aos='fade-right') Git es una plataforma de desarrollo colaborativo donde se almacenan proyectos que utilizan un sistema para el control de versiones. Para entenderlo, es necesario explicar cada uno de los comandos para el manejo de la herramienta, que se hace indispensable para cualquier grupo o proyecto de <em>software</em>. Dentro de los comandos básicos se encuentran:
     .row.justify-content-center.align-items-center.mb-4.mb-lg-5
       .col-lg-8(data-aos="fade-left").mb-4.mb-lg-0
         AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")

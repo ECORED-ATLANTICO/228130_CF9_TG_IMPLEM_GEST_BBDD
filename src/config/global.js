@@ -116,7 +116,7 @@ export default {
     {
       termino: 'HTTP',
       significado:
-        'el protocolo de transferencia de hipertexto, es el protocolo de comunicación que permite las transferencias de información, a través de archivos en la World Wide Web.',
+        'el protocolo de transferencia de hipertexto es el protocolo de comunicación que permite las transferencias de información a través de archivos en la World Wide Web.',
     },
     {
       termino: 'IGP',
@@ -162,9 +162,46 @@ export default {
   referencias: [
     {
       referencia:
-        'Linares, K. (2017). Protocolos y aplicaciones de redes pequeñas - CCNA V6.0. Kevin Linares',
+        'Dauzon, S. (2022). <em>Git: Controle la gestión de sus versiones (conceptos, utilización y casos prácticos)</em> (2ª ed.). Ediciones ENI.',
+      link: '',
+    },
+    {
+      referencia:
+        'Gouigoux, J. (2018). <em>Primeros pasos y puesta en práctica de una arquitectura basada en microservicios</em>. Ediciones ENI.',
       link:
-        ' https://3.bp.blogspot.com/-yOSvNtxMKeg/WSJBkZY2c6I/AAAAAAAAD0E/buUO_7iUmWAIz0LhSYuA7rKWXO9cIVWogCLcB/s1600/Protocolos%2Bcomunes.jpg',
+        'https://es.scribd.com/document/553725217/pdfcoffee-com-docker-primeros-pasos-y-puesta-en-practica-de-una-arquitectura-basada-2-pdf-free',
+    },
+    {
+      referencia:
+        'Joyanes, L. (2012). <em>Computación en la nube: Estrategias de Cloud Computing en las empresas</em>. Alfaomega Grupo Editor.',
+      link:
+        'https://dokumen.pub/computacion-en-la-nube-estrategias-de-cloud-computing-en-las-empresas-1.html',
+    },
+    {
+      referencia:
+        'Linares, K. (2017). Protocolos y aplicaciones de redes pequeñas - CCNA V6.0. <em>Kevin Linares</em>.',
+      link:
+        'https://kevin-linares.blogspot.com/2017/05/cree-una-red-pequena-Diseno-de-red-Protocolos-y-aplicaciones-de-redes-pequenas.html',
+    },
+    {
+      referencia:
+        'Philippe, F. (2010). <em>Windows server 2008: los servicios de red TCP/IP</em>. Ediciones ENI.',
+      link: '',
+    },
+    {
+      referencia:
+        'Philippe, P. (2021). <em>Microsoft Azure: gestione su sistema de información en la nube</em>. Ediciones ENI.',
+      link: '',
+    },
+    {
+      referencia:
+        'Serrano, J. (2022). AWS, el rentable negocio en la nube de Amazon. <em>Unidad Editorial Revistas, SLU</em>.',
+      link: '',
+    },
+    {
+      referencia:
+        'Villarino, J. (2018). <em>La privacidad en el entorno del Cloud Computing</em>. Editorial.',
+      link: '',
     },
   ],
   creditos: {
